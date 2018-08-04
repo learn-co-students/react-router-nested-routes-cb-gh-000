@@ -20,6 +20,7 @@ ReactDOM.render(
     <Router history={browserHistory} >
       <Route path="/" component={App} />
       <Route path='/movies' component={MoviesPage}/>
+        <Route path="/movies/:id" component={MoviesShow} />
     </Router>
   </Provider>),
 document.getElementById('container'));
