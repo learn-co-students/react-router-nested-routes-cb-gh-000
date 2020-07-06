@@ -9,7 +9,7 @@
 
 In the previous lesson, we saw how to have routes dynamically render different components.  However, as you may have noticed, each time we rendered one component, our previous component disappeared.  In this lesson, we'll see how routes can be used to specify multiple components to render.  
 
-## Master Detail Without Routes
+## Master Detail Without Routes h
 
 Have you ever used Apple's Messages app for your Mac? How about GMail? What about YouTube? All of those apps use some version of a "Master-Detail" interface. This is when there is something pertaining to the entire resource, such as a list of all messages, videos, or emails, and some more detailed display of a specific item or action on another portion of the screen. Clicking on a new item in the list changes which item we have selected.
 
